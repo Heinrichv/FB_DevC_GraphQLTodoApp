@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hventer\\source\\repos\\GraphQLTodoApp\\GraphQLTodoApp\\GraphQLTodoApp.Api\\GraphQLTodoApp.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hventer\\source\\repos\\GraphQLTodoApp\\GraphQLTodoApp\\GraphQLTodoApp.Api\\GraphQLTodoApp.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hventer\\source\\repos\\GraphQLTodoApp\\GraphQLTodoApp\\GraphQLTodoApp.Api\\GraphQLTodoApp.Api.csproj",
+        "projectName": "GraphQLTodoApp.Api",
+        "projectPath": "C:\\Users\\hventer\\source\\repos\\GraphQLTodoApp\\GraphQLTodoApp\\GraphQLTodoApp.Api\\GraphQLTodoApp.Api.csproj",
+        "packagesPath": "C:\\Users\\hventer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hventer\\source\\repos\\GraphQLTodoApp\\GraphQLTodoApp\\GraphQLTodoApp.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hventer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "http://proget/nuget/osiristrading/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Users\\hventer\\source\\repos\\GraphQLTodoApp\\GraphQLTodoApp\\GraphQLTodoApp.DataAccess\\GraphQLTodoApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\hventer\\source\\repos\\GraphQLTodoApp\\GraphQLTodoApp\\GraphQLTodoApp.DataAccess\\GraphQLTodoApp.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "GraphQL.Server.Core": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "GraphQL.Server.Transports.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "GraphQL.Server.Ui.Playground": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.HttpsPolicy": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.ResponseCompression": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Swashbuckle": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\hventer\\source\\repos\\GraphQLTodoApp\\GraphQLTodoApp\\GraphQLTodoApp.DataAccess\\GraphQLTodoApp.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hventer\\source\\repos\\GraphQLTodoApp\\GraphQLTodoApp\\GraphQLTodoApp.DataAccess\\GraphQLTodoApp.DataAccess.csproj",
+        "projectName": "GraphQLTodoApp.DataAccess",
+        "projectPath": "C:\\Users\\hventer\\source\\repos\\GraphQLTodoApp\\GraphQLTodoApp\\GraphQLTodoApp.DataAccess\\GraphQLTodoApp.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\hventer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hventer\\source\\repos\\GraphQLTodoApp\\GraphQLTodoApp\\GraphQLTodoApp.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hventer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "http://proget/nuget/osiristrading/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.FileProviders.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
