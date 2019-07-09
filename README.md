@@ -17,11 +17,13 @@ PM> Install-Package GraphQL.Server.Ui.Playground
 ## Documentation
 
 http://graphql-dotnet.github.io
+
 https://github.com/graphql-dotnet/server
 
 ## Examples
 
 https://github.com/graphql-dotnet/examples
+
 https://github.com/graphql-dotnet/relay
 
 ## Training
