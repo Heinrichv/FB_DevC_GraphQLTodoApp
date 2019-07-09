@@ -33,6 +33,7 @@ namespace GraphQLTodoApp.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddCors();
             services.AddHttpContextAccessor();
@@ -49,15 +50,11 @@ namespace GraphQLTodoApp.Api
 
             IFileProvider physicalProvider = new PhysicalFileProvider(Directory.GetCurrentDirectory());
             services.AddSingleton(physicalProvider);
-
             services.AddScoped<IFileDataAccess, FileDataAccess>();
 
             services.AddScoped<IDependencyResolver>(s => new FuncDependencyResolver(s.GetRequiredService));
             services.AddScoped<TodoItemSchema>();
-            services.AddGraphQL(o => 
-            {
-                o.ExposeExceptions = true;
-            }).AddGraphTypes(ServiceLifetime.Scoped);
+            services.AddGraphQL().AddGraphTypes(ServiceLifetime.Scoped);
 
         }
 
@@ -70,14 +67,18 @@ namespace GraphQLTodoApp.Api
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "GraphQL Todo App API");
             });
+
+            // Configure GraphQL
             app.UseGraphQL<TodoItemSchema>();
             app.UseGraphQLPlayground(new GraphQLPlaygroundOptions());
+
             app.UseCors(x =>
             {
                 x.AllowAnyOrigin();
                 x.AllowAnyMethod();
                 x.AllowAnyHeader();
             });
+
             app.UseResponseCompression();
             app.UseMvc();
         }

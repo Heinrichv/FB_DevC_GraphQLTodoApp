@@ -1,7 +1,6 @@
 ﻿using GraphQL.Types;
 using GraphQLTodoApp.Api.Schemas.Types;
 using GraphQLTodoApp.DataAccess;
-using GraphQLTodoApp.DataAccess.Models;
 using System;
 
 namespace GraphQLTodoApp.Api.Schemas

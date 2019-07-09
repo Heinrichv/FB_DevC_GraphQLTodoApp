@@ -7,3 +7,12 @@ C:\Users\hventer\source\repos\GraphQLTodoApp\GraphQLTodoApp\GraphQLTodoApp.DataA
 C:\Users\hventer\source\repos\GraphQLTodoApp\GraphQLTodoApp\GraphQLTodoApp.DataAccess\bin\Debug\netstandard2.0\GraphQLTodoApp.DataAccess.pdb
 C:\Users\hventer\source\repos\GraphQLTodoApp\GraphQLTodoApp\GraphQLTodoApp.DataAccess\obj\Debug\netstandard2.0\GraphQLTodoApp.DataAccess.dll
 C:\Users\hventer\source\repos\GraphQLTodoApp\GraphQLTodoApp\GraphQLTodoApp.DataAccess\obj\Debug\netstandard2.0\GraphQLTodoApp.DataAccess.pdb
+D:\Projects\FB_DevC_GraphQLTodoApp\GraphQLTodoApp.DataAccess\bin\Debug\netstandard2.0\GraphQLTodoApp.DataAccess.deps.json
+D:\Projects\FB_DevC_GraphQLTodoApp\GraphQLTodoApp.DataAccess\bin\Debug\netstandard2.0\GraphQLTodoApp.DataAccess.dll
+D:\Projects\FB_DevC_GraphQLTodoApp\GraphQLTodoApp.DataAccess\bin\Debug\netstandard2.0\GraphQLTodoApp.DataAccess.pdb
+D:\Projects\FB_DevC_GraphQLTodoApp\GraphQLTodoApp.DataAccess\obj\Debug\netstandard2.0\GraphQLTodoApp.DataAccess.csprojAssemblyReference.cache
+D:\Projects\FB_DevC_GraphQLTodoApp\GraphQLTodoApp.DataAccess\obj\Debug\netstandard2.0\GraphQLTodoApp.DataAccess.csproj.CoreCompileInputs.cache
+D:\Projects\FB_DevC_GraphQLTodoApp\GraphQLTodoApp.DataAccess\obj\Debug\netstandard2.0\GraphQLTodoApp.DataAccess.AssemblyInfoInputs.cache
+D:\Projects\FB_DevC_GraphQLTodoApp\GraphQLTodoApp.DataAccess\obj\Debug\netstandard2.0\GraphQLTodoApp.DataAccess.AssemblyInfo.cs
+D:\Projects\FB_DevC_GraphQLTodoApp\GraphQLTodoApp.DataAccess\obj\Debug\netstandard2.0\GraphQLTodoApp.DataAccess.dll
+D:\Projects\FB_DevC_GraphQLTodoApp\GraphQLTodoApp.DataAccess\obj\Debug\netstandard2.0\GraphQLTodoApp.DataAccess.pdb
