@@ -9,18 +9,20 @@ You can install the latest version via [NuGet](https://www.nuget.org/packages/Gr
 
 ```
 PM> Install-Package GraphQL
+PM> Install-Package GraphQL.Server.Core
+PM> Install-Package GraphQL.Server.Transports.AspNetCore
+PM> Install-Package GraphQL.Server.Ui.Playground
 ```
-
-Or you can get the latest pre-release packages from the [MyGet feed](https://www.myget.org/F/graphql-dotnet/api/v3/index.json).
-
 
 ## Documentation
 
 http://graphql-dotnet.github.io
+https://github.com/graphql-dotnet/server
 
 ## Examples
 
 https://github.com/graphql-dotnet/examples
+https://github.com/graphql-dotnet/relay
 
 ## Training
 
