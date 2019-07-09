@@ -1,4 +1,4 @@
-# FB DevC GraphQL Todo App
+# FB DevC GraphQL Todo Service
 To-Do API built with .NET Core &amp; GraphQL for Facebook Dev Circles JHB Meetup demo
 
 This is an example todo app of [Facebook's GraphQL](https://github.com/facebook/graphql) in .NET Core.
